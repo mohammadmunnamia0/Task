@@ -22,10 +22,10 @@ const Hero = () => {
             26k Happy Customers
           </span>
         </div>
-        <h1 className="mb-5 text-5xl font-bold">
+        <h1 className="mb-5 text-5xl font-bold font-Montserrat">
           Breathe better, <br /> live better!
         </h1>
-        <p className="mb-5">
+        <p className="mb-5 font-Montserrat">
           Discover how effortless breathing can enhance your life. Take the
           first step today!
         </p>
