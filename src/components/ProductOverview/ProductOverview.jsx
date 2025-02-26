@@ -1,16 +1,19 @@
 import { useState } from "react";
-import { FaStar } from "react-icons/fa";
-import { FaCheckCircle } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa";
-import { FaChevronDown, FaChevronUp } from "react-icons/fa";
+import {
+  FaArrowRight,
+  FaCheckCircle,
+  FaChevronDown,
+  FaChevronUp,
+  FaStar,
+} from "react-icons/fa";
 import applePay from "/src/assets/ProductOverview/applePay.png";
 import googlePay from "/src/assets/ProductOverview/googlePay.png";
-import shopPay from "/src/assets/ProductOverview/shopPay.png";
-import visa from "/src/assets/ProductOverview/visa.png";
 import product1 from "/src/assets/ProductOverview/product1.png";
 import product2 from "/src/assets/ProductOverview/product2.png";
 import product3 from "/src/assets/ProductOverview/product3.png";
 import product4 from "/src/assets/ProductOverview/product4.png";
+import shopPay from "/src/assets/ProductOverview/shopPay.png";
+import visa from "/src/assets/ProductOverview/visa.png";
 
 const ProductOverview = () => {
   const [selectedImage, setSelectedImage] = useState(product1);
