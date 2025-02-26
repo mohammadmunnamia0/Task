@@ -1,3 +1,4 @@
+import { FaArrowRightLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const navbar = () => {
@@ -91,7 +92,7 @@ const navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn text-white bg-[#FF6600] rounded-full">Contact Us</a>
+          <a className="btn text-white bg-[#FF6600] rounded-full">Contact Us  <FaArrowRightLong className="flex items-center justify-center" /></a>
         </div>
       </div>
     </div>

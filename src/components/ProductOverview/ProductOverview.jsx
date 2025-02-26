@@ -12,8 +12,6 @@ import product2 from "/src/assets/ProductOverview/product2.png";
 import product3 from "/src/assets/ProductOverview/product3.png";
 import product4 from "/src/assets/ProductOverview/product4.png";
 
-
-
 const ProductOverview = () => {
   const [selectedImage, setSelectedImage] = useState(product1);
   const [openAccordion, setOpenAccordion] = useState(null);
@@ -60,9 +58,10 @@ const ProductOverview = () => {
           </span>
         </div>
         <p className="mt-4 text-gray-700">
-          A nasal clip is a small device typically used to pinch or secure the nostrils
-          for various purposes, such as during sports, medical treatments, or
-          personal health practices. It enhances airflow and reduces snoring.
+          A nasal clip is a small device typically used to pinch or secure the
+          nostrils for various purposes, such as during sports, medical
+          treatments, or personal health practices. It enhances airflow and
+          reduces snoring.
         </p>
         <ul className="mt-4 grid grid-cols-2 space-y-2 text-gray-700">
           {[
@@ -76,23 +75,38 @@ const ProductOverview = () => {
             </li>
           ))}
         </ul>
-        <button className="mt-6 w-full bg-orange-500 text-white px-6 py-3 rounded-full flex text-center items-center gap-2 text-lg font-semibold
-         hover:bg-orange-600 transition">
+        <button
+          className="mt-6 w-full bg-orange-500 text-white px-6 py-3 rounded-full flex items-center justify-center gap-2 text-lg font-semibold
+         hover:bg-orange-600 transition"
+        >
           Add to Cart <FaArrowRight />
         </button>
+
         <div className="grid grid-cols-2 lg:flex gap-4 mt-6">
           {[applePay, googlePay, shopPay, visa].map((pay, i) => (
             <img key={i} src={pay} alt="Payment" className="h-10 pl-10" />
           ))}
         </div>
         <div className="mt-8 space-y-4 text-gray-600">
-          {["Sizing information", "Free resizing", "Money back guarantee & free returns"].map((item, index) => (
-            <div key={index} className="border-b pb-2 cursor-pointer" onClick={() => toggleAccordion(index)}>
+          {[
+            "Sizing information",
+            "Free resizing",
+            "Money back guarantee & free returns",
+          ].map((item, index) => (
+            <div
+              key={index}
+              className="border-b pb-2 cursor-pointer"
+              onClick={() => toggleAccordion(index)}
+            >
               <div className="flex justify-between items-center">
                 <p>{item}</p>
                 {openAccordion === index ? <FaChevronUp /> : <FaChevronDown />}
               </div>
-              {openAccordion === index && <p className="mt-2 text-sm text-gray-500">Details about {item}</p>}
+              {openAccordion === index && (
+                <p className="mt-2 text-sm text-gray-500">
+                  Details about {item}
+                </p>
+              )}
             </div>
           ))}
         </div>
