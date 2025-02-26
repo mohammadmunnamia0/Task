@@ -1,5 +1,7 @@
 import { FaPlayCircle } from "react-icons/fa";
 import { FaCheckCircle } from "react-icons/fa";
+import image1 from "../../assets/BackedScience/Group.png"
+import image2 from "../../assets/Banner3/image2.png"
 const BackedScience = () => {
   return (
     <div className="bg-bgColor my-20">
@@ -9,7 +11,7 @@ const BackedScience = () => {
           <div className="relative">
             <img
               className="lg:w-72 lg:h-[480px] mt-20 opacity-75 hover:opacity-100 transition-opacity duration-300"
-              src="/src/assets/Banner3/image2.png"
+              src={image2}
               alt=""
             />
             <FaPlayCircle className="absolute inset-0 m-auto text-white text-6xl animate-pulse" />
@@ -17,7 +19,7 @@ const BackedScience = () => {
           <div className="lg:w-[630px] lg:h-[602px] lg:ml-2 grid lg:col-span-2 mt-20 relative">
             <img
               className="opacity-75 hover:opacity-100 transition-opacity duration-300"
-              src="/src/assets/Banner3/image2.png"
+              src={image2}
               alt=""
             />
             <FaPlayCircle className="absolute inset-1 m-auto text-white text-6xl animate-pulse" />
@@ -25,7 +27,7 @@ const BackedScience = () => {
           <div className="relative">
             <img
               className="lg:w-72 lg:h-[480px] mt-20 opacity-75 hover:opacity-100 transition-opacity duration-300"
-              src="/src/assets/Banner3/image2.png"
+              src={image2}
               alt=""
             />
             <FaPlayCircle className="absolute inset-0 m-auto text-white text-6xl animate-pulse" />
@@ -42,7 +44,7 @@ const BackedScience = () => {
                 </ul>
             </div>
             <div>
-                <img src="/src/assets/BackedScience/Group.png" alt="" />
+                <img src={image1} alt="" />
             </div>
         </div>
       </div>

@@ -1,3 +1,5 @@
+import image1 from "../../assets/HowWorks/Image1.png"
+import image2 from "../../assets/HowWorks/Image2.png"
 const HowWork = () => {
   return (
     <div className="bg-bgColor my-10">
@@ -21,7 +23,7 @@ const HowWork = () => {
             <div className="p-4 lg:p-0">
               <img
                 className="lg:w-[584px] lg:h-[600px]"
-                src="/src/assets/HowWorks/Image1.png"
+                src={image1}
                 alt=""
               />
             </div>
@@ -134,7 +136,7 @@ const HowWork = () => {
             <div>
               <img
                 className="lg:w-[584px] lg:h-[400px] lg:mt-16 p-6 lg:p-0"
-                src="/src/assets/HowWorks/Image2.png"
+                src={image2}
                 alt=""
               />
             </div>

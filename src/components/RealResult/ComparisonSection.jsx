@@ -1,5 +1,7 @@
 import { IoIosCloseCircle } from "react-icons/io";
 import { BsFillCheckCircleFill } from "react-icons/bs";
+import before from "../../assets/ComparisonSection/beefore.png"
+import after from "../../assets/ComparisonSection/after.png"
 
 const ComparisonSection = () => {
   return (
@@ -13,7 +15,7 @@ const ComparisonSection = () => {
         <div className="text-center">
           
           <img
-            src="/src/assets/ComparisonSection/beefore.png"
+            src={before}
             alt="Before using nasal clip"
             className="mt-4 rounded-lg shadow-lg"
           />
@@ -47,7 +49,7 @@ const ComparisonSection = () => {
         <div className="text-center">
           
           <img
-            src="/src/assets/ComparisonSection/after.png"
+            src={after}
             alt="Before using nasal clip"
             className="mt-4 rounded-lg shadow-lg"
           />

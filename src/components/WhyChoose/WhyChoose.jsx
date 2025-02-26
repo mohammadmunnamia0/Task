@@ -1,29 +1,32 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import image1 from "../../assets/WhyChoose/image1.png"
+import image2 from "../../assets/WhyChoose/image.png"
+
 
 const cn = (...classes) => classes.filter(Boolean).join(" ");
 
 const slides = [
   {
-    image: "/src/assets/WhyChoose/image1.png",
+    image:image1,
     title: "Reduces Snoring",
     description:
       "Our nasal clip is scientifically designed to fit seamlessly into your daily routine.",
   },
   {
-    image: "/src/assets/WhyChoose/image.png",
+    image: image2,
     title: "Improves Breathing",
     description:
       "Enhance airflow and breathe easier during activities and rest.",
   },
   {
-    image: "/src/assets/WhyChoose/image1.png",
+    image:image1,
     title: "Reduces Snoring",
     description:
       "Our nasal clip is scientifically designed to fit seamlessly into your daily routine.",
   },
   {
-    image: "/src/assets/WhyChoose/image.png",
+    image:image2,
     title: "Improves Breathing",
     description:
       "Enhance airflow and breathe easier during activities and rest.",

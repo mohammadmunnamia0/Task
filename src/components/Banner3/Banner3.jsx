@@ -1,5 +1,7 @@
 import { FaCheckCircle } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
+import image1 from "/src/assets/Banner3/image1.png"
+import image2 from "/src/assets/Banner3/image2.png"
 
 const Banner3 = () => {
   return (
@@ -9,7 +11,7 @@ const Banner3 = () => {
 
         <section className="lg:flex text-white justify-center px-8 py-8 lg:py-0 lg:px-0 lg:gap-20">
           <div>
-            <img className="w-[584px] h-[478px]" src="/src/assets/Banner3/image1.png" alt="" />
+            <img className="w-[584px] h-[478px]" src={image1} alt="" />
           </div>
           <div className=" py-4 lg:py-24">
             <h1 className="text-4xl font-bold font-Montserrat">Pain Points</h1>
@@ -64,7 +66,7 @@ const Banner3 = () => {
             </ul>
           </div>
           <div>
-            <img className="w-[584px] h-[478px]" src="/src/assets/Banner3/image2.png" alt="" />
+            <img className="w-[584px] h-[478px]" src={image2} alt="" />
           </div>
         </section>
 

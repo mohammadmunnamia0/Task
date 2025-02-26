@@ -1,23 +1,24 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
+import image from "../../assets/WhyChoose/random.jpg"
 
 const testimonials = [
   {
     name: "Alex R",
     text: "Finally, a product that actually helps with my snoring! My partner sleeps better, and so do I.",
-    image: "https://randomuser.me/api/portraits/women/45.jpg",
+    image: image,
     rating: 4.9,
   },
   {
     name: " R",
     text: "Finally, a product that actually helps with my snoring! My partner sleeps better, and so do I.",
-    image: "https://randomuser.me/api/portraits/women/45.jpg",
+    image: image,
     rating: 4.9,
   },
   {
     name: "Alex",
     text: "Finally, a product that actually helps with my snoring! My partner sleeps better, and so do We I.",
-    image: "https://randomuser.me/api/portraits/women/45.jpg",
+    image: image,
     rating: 4.9,
   },
   // Add more testimonials if needed

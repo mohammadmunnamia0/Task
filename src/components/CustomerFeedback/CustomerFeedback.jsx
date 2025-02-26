@@ -1,6 +1,10 @@
 import { IoShieldCheckmark } from "react-icons/io5";
 import { FaStar } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
+import image1 from "../../assets/Feedback/Ellipse3.png"
+import image2 from "../../assets/Feedback/Ellipse1.png"
+import image3 from "../../assets/Feedback/Ellipse2.png"
+import image4 from "../../assets/Feedback/image.png"
 
 const CustomerFeedback = () => {
   return (
@@ -11,7 +15,7 @@ const CustomerFeedback = () => {
       <div className="mt-16">
         <div className="flex justify-between">
           <div className="flex gap-2 justify-center items-center ">
-            <img src="/src/assets/Feedback/Ellipse 8.png" alt="" />
+            <img src={image1} alt="" />
             <h2 className="text-2xl font-bold">Arlene McCoy</h2><IoShieldCheckmark className="text-green-500  flex justify-center items-center text-2xl"/>
           </div>
           <div>
@@ -32,7 +36,7 @@ const CustomerFeedback = () => {
       <div className="mt-16">
         <div className="flex justify-between">
           <div className="flex gap-2 justify-center items-center ">
-            <img src="/src/assets/Feedback/Ellipse 8.png" alt="" />
+            <img src={image2} alt="" />
             <h2 className="text-2xl font-bold">Ralph Edwards</h2><IoShieldCheckmark className="text-green-500  flex justify-center items-center text-2xl"/>
           </div>
           <div>
@@ -53,7 +57,7 @@ const CustomerFeedback = () => {
       <div className="mt-16">
         <div className="flex justify-between">
           <div className="flex gap-2 justify-center items-center ">
-            <img src="/src/assets/Feedback/Ellipse 8.png" alt="" />
+            <img src={image3} alt="" />
             <h2 className="text-2xl font-bold">Cameron Williamson</h2><IoShieldCheckmark className="text-green-500  flex justify-center items-center text-2xl"/>
           </div>
           <div>
@@ -67,7 +71,7 @@ const CustomerFeedback = () => {
         </div>
         <div className="mt-4">
         <p>I’ve been using the nasal clip to combat my chronic nasal congestion, and it’s made a world of <br /> difference. Highly effective and comfortable!</p>
-        <img className="mt-4" src="/src/assets/Feedback/image 9.png" alt="" />
+        <img className="mt-4" src={image4} alt="" />
         </div>
       </div>
     
