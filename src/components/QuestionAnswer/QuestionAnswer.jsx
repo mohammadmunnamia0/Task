@@ -21,7 +21,7 @@ const QuestionAnswer = () => {
                 whole world of air out there that we didn’t even know we were
                 missing. But if you do have a history of allergies, sinus
                 infections, a deviated septum, or anything that makes it
-                difficult for you to breathe, Intake may help greatly.{" "}
+                difficult for you to breathe, Intake may help .
               </p>
             </div>
           </div>
