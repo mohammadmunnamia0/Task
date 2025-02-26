@@ -14,7 +14,7 @@ import PricingPlans from "../components/PricePlan/PricingPlans";
 import Footer from "../components/Footer/Footer";
 
 
-const root = () => {
+const Root = () => {
     return (
         <div>
             <Navbar></Navbar>
@@ -30,10 +30,9 @@ const root = () => {
             <QuestionAnswer></QuestionAnswer>
             <OrderNow></OrderNow>
             <PricingPlans></PricingPlans>
-            <Footer></Footer>
-           
+            <Footer></Footer> 
         </div>
     );
 };
 
-export default root;
+export default Root;
