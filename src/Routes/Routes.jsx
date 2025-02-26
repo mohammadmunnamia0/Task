@@ -1,7 +1,7 @@
 import {
     createBrowserRouter,
   } from "react-router-dom";
-import Root from "../layouts/Root";
+import Root from "../Layouts/Root";
   export const router = createBrowserRouter([
     {
       path: "/",
