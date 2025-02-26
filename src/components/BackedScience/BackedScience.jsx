@@ -37,7 +37,7 @@ const BackedScience = () => {
         <div className="lg:flex p-6 lg:p-0 justify-between text-white font-Montserrat ">
             <div className="mt-10">
                 <h1 className="text-4xl py-4">Backed by Science</h1>
-                <p>Our product is backed by clinical studies that show significant improvement in airflow and reduction in snoring for consistent users.</p>
+                <p>Our product is backed by clinical studies that show significant improvement in airflow reduction in snoring for consistent users.</p>
                 <ul className="py-4 grid gap-4">
                      <li className="flex  items-center"> <FaCheckCircle className="text-orange-600"/>Clinical study shows 80% improvement in nasal airflow</li>
                      <li className="flex items-center"> <FaCheckCircle className="text-orange-600"/>70% of users report reduced snoring after 2 weeks</li>
