@@ -120,7 +120,7 @@ PlanCard.propTypes = {
 export default function PricingPlans() {
   return (
     <div className="lg:mx-[112px]">
-      <div className="flex flex-col items-center px-6 py-12 mt-10 bg-gray-50">
+      <div className="flex flex-col items-center px-6 py-12 mt-10 ">
         <h2 className="text-5xl font-bold text-[#FF6600] mb-8">
           Choose the Best Plan for You
         </h2>
