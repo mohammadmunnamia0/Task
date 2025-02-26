@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import { FaStar } from "react-icons/fa6";
+import { PiCheckCircleLight } from "react-icons/pi";
 
 const plans = [
   {
@@ -35,7 +36,7 @@ const plans = [
 const PlanCard = ({ title, tabs, price, discount, highlight }) => {
   return (
     <div
-      className={`relative w-64 max-w-xs p-6 bg-white border rounded-xl shadow-lg transition-all duration-300 hover:scale-105 hover:border-orange-500 ${
+      className={`relative max-w-xs p-6 bg-white border rounded-xl shadow-lg transition-all duration-300 hover:scale-105 hover:border-orange-500 ${
         highlight ? "border-orange-500" : "border-gray-200"
       }`}
     >
@@ -76,11 +77,21 @@ const PlanCard = ({ title, tabs, price, discount, highlight }) => {
         </button>
       </div>
       <ul className="mt-4 space-y-2 text-gray-600">
-        <li>✅ 60 days Money back guarantee</li>
-        <li>✅ Whole Starter kit</li>
-        <li>✅ Free Returns</li>
-        <li>✅ Free shipping with every bundle after 3 month supply</li>
+        <li className="flex items-center gap-2">
+          <PiCheckCircleLight className="text-xl text-green-500" /> 60 days Money back
+        </li>
+        <li className="flex items-center gap-2">
+          <PiCheckCircleLight className="text-xl text-green-500" /> Whole Starter kit
+        </li>
+        <li className="flex items-center gap-2">
+          <PiCheckCircleLight className="text-xl text-green-500" /> Free Returns
+        </li>
+        <li className="flex items-center gap-2">
+          <PiCheckCircleLight className="text-xl text-green-500" /> <span>Free shipping with <br /> every
+          bundle after <br />  3-month supply</span>
+        </li>
       </ul>
+
       <p className="mt-3 flex gap-1">
         <div className="flex mt-2 text-yellow-400">
           <FaStar />
@@ -108,14 +119,16 @@ PlanCard.propTypes = {
 
 export default function PricingPlans() {
   return (
-    <div className="flex flex-col items-center px-6 py-12 mt-10 bg-gray-50">
-      <h2 className="text-5xl font-bold text-[#FF6600] mb-8">
-        Choose the Best Plan for You
-      </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
-        {plans.map((plan, index) => (
-          <PlanCard key={index} {...plan} />
-        ))}
+    <div className="lg:mx-[112px]">
+      <div className="flex flex-col items-center px-6 py-12 mt-10 bg-gray-50">
+        <h2 className="text-5xl font-bold text-[#FF6600] mb-8">
+          Choose the Best Plan for You
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
+          {plans.map((plan, index) => (
+            <PlanCard key={index} {...plan} />
+          ))}
+        </div>
       </div>
     </div>
   );
