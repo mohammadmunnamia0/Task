@@ -16,7 +16,7 @@ const testimonials = [
   },
   {
     name: "Alex",
-    text: "Finally, a product that actually helps with my snoring! My partner sleeps better, and so do I.",
+    text: "Finally, a product that actually helps with my snoring! My partner sleeps better, and so do We I.",
     image: "https://randomuser.me/api/portraits/women/45.jpg",
     rating: 4.9,
   },
